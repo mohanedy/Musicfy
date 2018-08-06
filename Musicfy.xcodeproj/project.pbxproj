@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72AE9689E008F1AB559E78D2 /* Pods_Musicfy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91AE38F0C9F4B72F0AC582C /* Pods_Musicfy.framework */; };
 		C96D4377211784FF00A50165 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D4376211784FF00A50165 /* AppDelegate.swift */; };
-		C96D4379211784FF00A50165 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D4378211784FF00A50165 /* ViewController.swift */; };
 		C96D437C211784FF00A50165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96D437A211784FF00A50165 /* Main.storyboard */; };
 		C96D437E211784FF00A50165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C96D437D211784FF00A50165 /* Assets.xcassets */; };
 		C96D4381211784FF00A50165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C96D437F211784FF00A50165 /* LaunchScreen.storyboard */; };
+		C96D438F21178FEC00A50165 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D438D21178FEC00A50165 /* ViewController.swift */; };
+		C96D439021178FEC00A50165 /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C96D438E21178FEC00A50165 /* MusicTableViewCell.swift */; };
+		C9CEF2E52117A3A80088318D /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9CEF2E42117A3A80088318D /* AudioViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B91AE38F0C9F4B72F0AC582C /* Pods_Musicfy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Musicfy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96D4373211784FF00A50165 /* Musicfy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musicfy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C96D4376211784FF00A50165 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C96D4378211784FF00A50165 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C96D437B211784FF00A50165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C96D437D211784FF00A50165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C96D4380211784FF00A50165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C96D4382211784FF00A50165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C96D438D21178FEC00A50165 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C96D438E21178FEC00A50165 /* MusicTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
+		C9CEF2E42117A3A80088318D /* AudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
+		E2A940ED3874CCFB71721D3D /* Pods-Musicfy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Musicfy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Musicfy/Pods-Musicfy.release.xcconfig"; sourceTree = "<group>"; };
+		E653243EF7DC1625616E119C /* Pods-Musicfy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Musicfy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Musicfy/Pods-Musicfy.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72AE9689E008F1AB559E78D2 /* Pods_Musicfy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D0BE7C26868593B874FECEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B91AE38F0C9F4B72F0AC582C /* Pods_Musicfy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C96D436A211784FF00A50165 = {
 			isa = PBXGroup;
 			children = (
 				C96D4375211784FF00A50165 /* Musicfy */,
 				C96D4374211784FF00A50165 /* Products */,
+				D5A5B56D1C214A4F894D17D2 /* Pods */,
+				2D0BE7C26868593B874FECEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +73,25 @@
 		C96D4375211784FF00A50165 /* Musicfy */ = {
 			isa = PBXGroup;
 			children = (
+				C96D438E21178FEC00A50165 /* MusicTableViewCell.swift */,
+				C96D438D21178FEC00A50165 /* ViewController.swift */,
+				C9CEF2E42117A3A80088318D /* AudioViewController.swift */,
 				C96D4376211784FF00A50165 /* AppDelegate.swift */,
-				C96D4378211784FF00A50165 /* ViewController.swift */,
 				C96D437A211784FF00A50165 /* Main.storyboard */,
 				C96D437D211784FF00A50165 /* Assets.xcassets */,
 				C96D437F211784FF00A50165 /* LaunchScreen.storyboard */,
 				C96D4382211784FF00A50165 /* Info.plist */,
 			);
 			path = Musicfy;
+			sourceTree = "<group>";
+		};
+		D5A5B56D1C214A4F894D17D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E653243EF7DC1625616E119C /* Pods-Musicfy.debug.xcconfig */,
+				E2A940ED3874CCFB71721D3D /* Pods-Musicfy.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C96D4385211784FF00A50165 /* Build configuration list for PBXNativeTarget "Musicfy" */;
 			buildPhases = (
+				02892E93EBF1F0E392ECA860 /* [CP] Check Pods Manifest.lock */,
 				C96D436F211784FF00A50165 /* Sources */,
 				C96D4370211784FF00A50165 /* Frameworks */,
 				C96D4371211784FF00A50165 /* Resources */,
+				DF8177EEAC68D22B27E3EC9B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +162,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02892E93EBF1F0E392ECA860 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Musicfy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF8177EEAC68D22B27E3EC9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Musicfy/Pods-Musicfy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Musicfy/Pods-Musicfy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C96D436F211784FF00A50165 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C96D4379211784FF00A50165 /* ViewController.swift in Sources */,
+				C96D438F21178FEC00A50165 /* ViewController.swift in Sources */,
+				C9CEF2E52117A3A80088318D /* AudioViewController.swift in Sources */,
 				C96D4377211784FF00A50165 /* AppDelegate.swift in Sources */,
+				C96D439021178FEC00A50165 /* MusicTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +355,7 @@
 		};
 		C96D4386211784FF00A50165 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E653243EF7DC1625616E119C /* Pods-Musicfy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +374,7 @@
 		};
 		C96D4387211784FF00A50165 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2A940ED3874CCFB71721D3D /* Pods-Musicfy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
